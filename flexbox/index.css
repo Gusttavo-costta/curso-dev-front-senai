@@ -1,0 +1,66 @@
+.pai {
+    width: 500px;
+    height: auto;
+    background-color: rgb(147, 156, 156);
+    margin: 20px;
+    padding: 20px 0px;
+
+}
+
+.caixa1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+}
+
+.caixa2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 26, 26);
+    color: white;
+}
+
+.caixa3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 179);
+    color: white;
+}
+
+/* fim estrutura */
+
+#direcao {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+#justifica {
+    display: flex;
+    justify-content: space-between;
+}
+
+#alinha {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#distorce {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    column-gap: 20px;
+}
+
+#alinhaConteudo {
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="imagemTopo">
+            <img id="imagemTopo" src="img/salario-familia.jpg" alt="salario-familia">
+        </div>
+    </header>
+
+    <main>
+        <div class="entradas">
+            <input type="text" placeholder="Empregado">
+
+            <input type="number" name="menor14" id="tamanho" max="14" required placeholder="Quantidade de filhos menores de 14 anos ou inválidos">
+            <input type="number" name="salario" id="tamanho"  required placeholder="Sálario Contribuição" step="0.01">
+        </div>
+
+
+        <table >
+            <tr>
+                <th>Sálario-Contribuição</th>
+                <th>Cota do sálario família</th>
+            </tr>
+            <tr>
+                <td>Até R$ 806,80</td>
+                <td>R$ 41,37 por filho</td>
+            </tr>
+            <tr>
+                <td>Entre R$ 806,80 e R$ 1,212,64</td>
+                <td>R$ 29,16 por filho</td>
+            </tr>
+            <tr>
+                <td>Mais de R$ 1,212,64</td>
+                <td>Não há</td>
+            </tr>
+        </table>
+
+        <button type="submit">Calcular</button>
+    </main>
+</body>
+
+</html>

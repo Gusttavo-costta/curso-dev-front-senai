@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/stylespaisagem.css" type="text/css" media="screen and (orientation : landscape)">
+    <link rel="stylesheet" href="css/stylesretrato.css" type="text/css" media="screen and (orientation : portrait)" >
+    <title>MidiaQuery - Responsividade</title>
+</head>
+<body>
+    <div id="pagina">
+
+        <nav id="menuItens">
+            <svg class="menuIcon" onclick=" Mostrar()" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg>
+            <ul id="menuOpcoes" >
+                <li class="menu">opcao1</li>
+                <li class="menu">opcao2</li>
+                <li class="menu">opcao3</li>
+                <li class="menu">opcao4</li>
+                <li class="menu">opcao5</li>
+            </ul>
+        </nav>
+
+        <div class="post">
+            <picture>
+                <source media="(max-width : 730px)" srcset="./images/mulherdancandoMenor.jpg">
+                <img src="./images/mulherdancando.jpg" alt="dança" class="foto">
+            </picture>
+
+            
+            <h1>Dançando na Agua</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium recusandae officia deserunt ullam iure eum, ad veritatis ratione maxime eius veniam minus ex esse earum pariatur ea est dicta quae.</p>
+            <p>Lorem  ipsum dolor sit amet consectetur, adipisicing elit. Laudantium recusandae officia deserunt ullam iure eum, ad veritatis ratione maxime eius veniam minus ex esse earum pariatur ea est dicta quae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium recusandae officia deserunt ullam iure eum, ad veritatis ratione maxime eius veniam minus ex esse earum pariatur ea est dicta quae.</p>
+        </div>
+    </div>
+    <script >
+        
+    function Mostrar(){
+        if(menuOpcoes.style.display == "none"){
+            menuOpcoes.style.display = "block"
+            }else{
+            menuOpcoes.style.display = "none"
+        }
+    }
+        
+    </script>
+</body>
+</html>

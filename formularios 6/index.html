@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>FOMRULARIO</h1>
+    <form action="backend.php" method="post">
+        <fieldset>
+            <legend>Obrigatórios</legend>
+            <label for="coisa">nome: </label>
+            <input type="text" id="nome" required><br>
+
+
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="seuEmail@htomail.com" required> <br>
+
+            <label for="idade">idade:</label>
+            <input type="idade" id="idade" required> <br>
+
+            <label for="senha">senha:</label>
+            <input type="password" id="senha" required> <br>
+        </fieldset>
+        <fieldset>
+            <label for="cor">cor</label>
+            <input type="color"><br>
+
+            <label for="date">data</label>
+            <input type="date"><br>
+
+            <label for="relogio">Relogio:</label>
+            <input type="time" id="relogio"> <br>
+        </fieldset>
+
+        <!-- sexo do usuario -->
+        <fieldset>
+            <label for="mulher">sexo:</label><br>
+            <label for="mulher">Mulher:</label>
+            <input type="radio" name="sexo" id="mulher"><br>
+
+            <label for="homem">homem:</label>
+            <input type="radio" name="sexo" id="homem"><br>
+
+            <label for="naodizer">Não dizer:</label>
+            <input type="radio" name="sexo" id="naodizer"><br>
+        </fieldset>
+        <!-- fim sexo do usuario -->
+
+        <select name="" id="escolaridade">
+            <option value="básico">ensino básico</option>
+            <option value="médio">ensino médio</option>
+            <option value="superior">ensino superior</option>
+            <option value="pos">ensino pós graduado</option>
+        </select><br>
+
+        <label for="feedback">Dê sua opnião</label> <br>
+        <textarea name="" id="feedback" cols="30" rows="10" placeholder="salve"> </textarea><br>
+
+
+
+        <input type="submit" value="FINALIZEI MEU FOMRULARIO">
+        <button type="reset">RESETAR</button><br>
+    </form>
+</body>
+
+</html>

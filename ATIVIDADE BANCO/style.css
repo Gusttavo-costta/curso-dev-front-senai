@@ -1,0 +1,361 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat";
+}
+
+
+
+
+.pagina {
+    
+width: 100%;
+    
+}
+
+#navegacao {
+    background-color:#ba2d2d;
+    
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.parteesquerda {
+    display: flex;
+    flex-direction: row;
+}
+
+#logoWhite {
+   
+}
+
+.parteesquerda ul {
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+
+}
+
+.parteesquerda li {
+    padding: 10px;
+    list-style: none;
+
+}
+
+.parteesquerda a {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+
+
+.partedireita {
+    margin-right: 30px;
+    width: 150px;
+}
+
+#botao {
+    width: 150px;
+    height: 50px;
+    background-color: #ba2d2d;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+#botao:hover {
+    background-color: white;
+    color: #ba2d2d;
+    border: 2px solid #ba2d2d;
+}
+
+/* fim nav */
+
+/* banner */
+
+.banner {
+    margin-top: 10px;
+    width: 100%;
+    height: 700px;
+    background-image: url(img/banner.jpg);
+    background-position: initial;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+    
+
+
+.welcome {
+    padding: 15px;
+    width: 500px;
+    height: 150px;
+    background-color:  #f2871ba1;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.welcome p,h2 {
+    margin: 10px;
+}
+
+#botaoconta {
+    margin-top: 10px;
+    background-color: #302727;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid #f2861b ;
+}
+
+.pagamento {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+#textopagamento {
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.cards {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.QRcode {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #302727;
+    background-image: url(img/codigoDeBarras.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    text-align: center;
+}
+
+.cartao {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #302727;
+    background-image: url(img/CartaoDeCredito.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    text-align: center;
+}
+
+
+.dinheiro {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #302727;
+    background-image: url(img/Dinheiro.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    text-align: center;
+    
+}
+
+.fonte p {
+    font-size: 20px;
+margin-top: 230px;
+    font-weight: bold;
+}
+
+/* fim pagamento */
+
+.servicos {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: #302727;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.textoservicos {
+    width: 40%;
+    height: 380px;
+    color: white;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    
+}
+
+.textoservicos h3 {
+    font-size: 32px;
+    
+    
+}
+
+.imagemCartao {
+    width: 40%;
+    height: 350px;
+    background-image: url(img/bannerBeneficios.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#bannercartao {
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+}
+
+/* fim serviços */
+
+
+.maneiras {
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+
+
+.card {
+    width: 20%;
+    height:90%;
+    border-radius: 20px;
+
+}
+
+
+#card1 {
+    background-image: url(img/cartaoUm.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#card2 {
+    background-image: url(img/cartaoDois.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#card3 {
+    background-image: url(img/cartaoTres.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.tabela {
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    margin: 0px auto;
+    width: 800px;
+    height: 400px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 8px 10px 10px 8px rgb(80, 80, 80);
+    
+}
+
+.tabela h2 {
+    font-size: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 750px;
+    margin: 0px auto;
+    
+}
+
+th {
+    width: 100px;
+    height: 50px;
+    background-color: #ba2d2d;
+    color: white;
+}
+
+td {
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    text-align: center;
+    width: 100px;
+    height: 50px ;
+    padding: 10px;
+}
+
+th:empty, td:empty {
+    border: none;
+    background-color: white;
+}
+
+/* fim tabela */
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #ba2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+
+#colors{
+    background-color: #302727;
+    background-color: #ba2d2d;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}

@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2A2B2A;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+#cabecalho h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+nav {
+    width: 40%;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+}
+#menu-button {
+    width: 50px;
+    height: 50px;
+
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    border-bottom: 2px  solid #F5124B;
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.post {
+    width: 40%;
+    border: 1px solid #929292;
+    border-radius: 10px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post h3{
+    margin: 15px;
+}
+
+.post p {
+    margin: 20px;
+}
+
+.post button {
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #F5124B;
+    border-radius: 5px;
+    border: none;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+
+
+
+#img-main {
+    width: 94%;
+    margin: 2px auto;
+    
+}
+
+#description-posts {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+#container {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    margin: 0 auto;
+    
+    
+}
+
+.mini-posts {
+    width: 25%;
+    height: 350px;
+    border: 1px solid #929292;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+    border-radius: 8px;
+    
+}
+
+.mini-posts button {
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #F5124B;
+    border-radius: 5px;
+    border: none;
+    margin: 0px auto;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.img-mini-posts {
+    width: 80%;
+    height: 130px;
+    margin: 0px auto;
+    
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #2A2B2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer p {
+    color:white;
+    font-weight: bold;
+
+}

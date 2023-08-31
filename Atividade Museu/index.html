@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="@mediaMobile.css" media="screen and (max-width:730px)">
+    <title>Artmuseum</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <h1>ArtMuseum</h1>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">GALERIA</a>
+            <a href="#">CONTATO</a>
+        </nav>
+
+        <button id="menu-button">
+
+            =
+
+        </button>
+    </header>
+
+    <main>
+        <h2>Destaques da semana</h2>
+        <section>
+            <div class="post">
+                <h3>Elizabeth</h3>
+                <picture>
+                    <source media="(orientation: landscape) and (max-height : 500px)" srcset="images/images/elizabethLandscaoe.png">
+                    <source media="(max-width : 730px)" srcset="images/images/elizabethMenor.png">
+                    <img src="images/images/elizabeth.jpg" alt="Elizabeth" id="img-main">
+                </picture>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel consequuntur blanditiis enim quod,
+                    necessitatibus perferendis facere provident officiis odio debitis mollitia tempora alias eaque ex
+                    nihil,
+                    asperiores quidem ipsam quasi! </p>
+
+                <button>Ver Sobre</button>
+            </div>
+        </section>
+        <section id="description-posts">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque natus id, similique quaerat cupiditate
+                laborum quisquam incidunt laboriosam corporis assumenda pariatur, ad cum repudiandae saepe debitis
+                aperiam
+                rerum, eveniet doloremque?</p>
+        </section>
+        <h2>Artes</h2>
+        <div id="container">
+            <div class="mini-posts">
+                <h3>Titulo da arte</h3>
+                <img src="images/images/arte3.jpg" alt="" class="img-mini-posts">
+                <p>descrução da arte</p>
+                <button>Ver Sobre</button>
+            </div>
+            <div class="mini-posts">
+                <h3>Titulo da arte</h3>
+                <img src="images/images/arte2.jpg" alt="" class="img-mini-posts">
+                <p>descrução da arte</p>
+                <button>Ver Sobre</button>
+            </div>
+            <div class="mini-posts">
+                <h3>Titulo da arte</h3>
+                <img src="images/images/arte1.jpg" alt="" class="img-mini-posts">
+                <p>descrução da arte</p>
+                <button>Ver Sobre</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>ARtNuseum ₢ 2023</p>
+    </footer>
+
+</body>
+
+</html>

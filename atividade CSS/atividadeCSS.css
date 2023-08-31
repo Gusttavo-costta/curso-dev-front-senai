@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+
+}
+
+body p {
+    font-size: 14pxs;
+}
+

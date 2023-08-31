@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+.entradas {
+    margin: 0px auto;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(150, 149, 149);
+    font-size: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    width: 600px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+
+
+th , td {
+    border: 2px solid black;
+    text-align: center;
+    height: 40px ;
+}
+
+th {
+    height: 50px;
+
+}
+
+/* fim tabela */
+
+button {
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: darkcyan;
+    box-shadow: 2px 5px 2px #696969;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
